@@ -1,1 +1,77 @@
-# Projeto1
+.cabecalho{
+    font-family: "Nova Flat";
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 140px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    }
+
+.links{
+
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;          
+
+}
+.cabecalho2{
+    font-family: "Nova Flat";
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(56, 221, 250);
+    font-size: 20px;
+    color: black;
+}
+
+.borda{
+    border-radius: 3000px;
+    background-color: white;
+    color: black;
+    font-size: 50px; 
+    padding: 20px;
+}
+          
+    a:link{
+        text-decoration: none;
+    }
+    
+ 
+    .logo2{
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .rodape{
+        text-align: center;
+    }
+    .rodapeC{
+        font-family: "Nova Flat";
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        height: 40px;
+        padding: 20px;
+        text-decoration: none;
+        background-color:rgb(56, 221, 250);
+        font-size: 20px;
+        color: black;
+    }
+    .borda{
+        border-radius: 3000px;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    }
