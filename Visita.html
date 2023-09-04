@@ -1,1 +1,48 @@
-# Projeto1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Visita técnica</title>
+</head>
+<body>
+    <div class="Tudo">
+    <h1>Relatório da visita técnica - IFRO Campus COLORADO</h1><br>
+    <H3>Aqui ficara o Relatório:</H3><br>
+    <div class="Relatorio">
+        <p>Partimos do IFRO de Vilhena as 9 da manhã e chegamos em Colorado as 11. Ao chegarmos fomos encaminhados a uma sala aonde onde foi explicado o cronograma do dia,
+            depois disso fomos almoçar.<br> Depois do almoço tivemos uma série de palestras sobre o projeto feito no IFRO de  Colorado destinado aos alunos e a comundidade,
+        mostraram como começaram o projeto do zero e como ele evoluíu até entâo,<br> com projetos de judô e de fotografia, além de outros destinados as áreas técnicas da agropecuária.
+        Depois disso fomos fazer um tuor com o objetivo de tirar fotos e conhecer o Campus, passamos pelos setores<br> produtivos 1, 2 e 3, vendo plantações de cultivo básico como hortaliças, café ou árvoes frutiferas destinados
+        ao suprimento local, logo em seguida também conhecemos os animais criados para surpimento local<br> ou para comércio dependendo da época, de galinhas, coelhos, codornas, abelhas
+        a até vacas, porcos e búfalos. Depois disso enfim fomos embora. </p>
+
+    </div>
+    <h3>Aqui ficará a Galeria de fotos:</h3>
+    <div class="gallery">
+
+        <img src="imagens/amigos.jpeg" alt="Imagem 1" onclick="openModal('imagens/amigos.jpeg')">
+        <img src="imagens/caminho.jpeg" alt="Imagem 2" onclick="openModal('imagens/caminho.jpeg')">
+        <img src="imagens/ceu.jpeg" alt="Imagem 3" onclick="openModal('imagens/ceu.jpeg')">
+        <img src="imagens/foto.jpeg" alt="Imagem 4" onclick="openModal('imagens/foto.jpeg')">
+        <img src="imagens/porco 2.jpeg" alt="Imagem 5" onclick="openModal('imagens/porco 2.jpeg')">
+        <img src="imagens/turma.jpeg" alt="Imagem 6" onclick="openModal('imagens/turma.jpeg')">
+        <img src="imagens/vacas.jpeg" alt="Imagem 7" onclick="openModal('imagens/vacas.jpeg')">
+        <img src="imagens/verde.jpeg" alt="Imagem 8" onclick="openModal('imagens/verde.jpeg')">
+        <img src="imagens/coelho.jfif" alt="Imagem 9" onclick="openModal('imagens/coelho.jfif')">
+        <img src="imagens/céu1.jfif" alt="Imagem 10" onclick="openModal('imagens/céu1.jfif')">
+    </div>
+    
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <span class="next" onclick="nextImage()">&#10095;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    </div>
+    </div>
+    <script src="visita.js"></script>
+
+</body>
+</html>
