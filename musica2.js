@@ -7,12 +7,12 @@ export default [
     {
       src: "./musica/borns.mp3",
       name: "Past Lives - BORNS",
-     image: "./img/borns.jpg"
+      image: "./img/borns.jpg"
     },
     {
       src: "./musica/doja.mp3",
       name: "Need to know - Doja Cat",
-     image: "./img/doja.jpg"
+      image: "./img/doja.jpg"
     },
     {
       src: "./musica/euevc.mp3",
@@ -37,8 +37,7 @@ export default [
     {
       src: "./musica/nadanovo.mp3",
       name: "Nothing new - Rio Romeo",
-      name: "Nothing image: "./img/rio.jpg"new - Rio Romeo",
-      
+      image: "./img/rio.jpg"
     },
     {
       src: "./musica/sunshine.mp3",
